@@ -1,0 +1,261 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="b6bafb854572d49df738208ae04d815390574413fa094129fbcce01b0c3df7b2.html">My Store</a></span>
+                > <span class="truncate-60"><a
+                    href="ecccc3b7ed806ca9f02972ff78307cde5bd0925a7ec98ea61ad6cccbf00a1d7c.html">register on my store page </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 08-10-2021 12:44</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">My Store </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Fernando wants to register on the page My store
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">register on my store page
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="113dd6cc2bf708e985ba61be966b8b65ca943a357829f07a0920076f077335bf.png" title=" Given Fernando wants to register on the page" width="1366"/>
+                <img src="113dd6cc2bf708e985ba61be966b8b65ca943a357829f07a0920076f077335bf.png" title=" Fernando open up" width="1366"/>
+                <img src="113dd6cc2bf708e985ba61be966b8b65ca943a357829f07a0920076f077335bf.png" title=" fernando opens the My store page" width="1366"/>
+                <img src="eded076df2e5367e40aa52c5a1b26033dc121d437047afc45c1a3644158f3480.png" title=" fernando clicks on Quiero ingresar" width="1366"/>
+                <img src="eded076df2e5367e40aa52c5a1b26033dc121d437047afc45c1a3644158f3480.png" title=" Fernando open up (completed)" width="1366"/>
+                <img src="eded076df2e5367e40aa52c5a1b26033dc121d437047afc45c1a3644158f3480.png" title=" Given Fernando wants to register on the page (completed)" width="1366"/>
+                <img src="72b3e571af72b1b26f0a3f063ae73560808415a689a8dc1f787b75bbcd3abb67.png" title=" And enter the register module
+| email |
+| fgdsdgshs23@gmail.com |" width="1366"/>
+                <img src="72b3e571af72b1b26f0a3f063ae73560808415a689a8dc1f787b75bbcd3abb67.png" title=" Fernando login" width="1366"/>
+                <img src="72b3e571af72b1b26f0a3f063ae73560808415a689a8dc1f787b75bbcd3abb67.png" title=" fernando enters 'fgdsdgshs23@gmail.com' into ingresar un email para hacer registo" width="1366"/>
+                <img src="9db8e75dc936b06364ad15d7c439739694038d8c69cc01b7b29be2152ecd0330.png" title=" fernando clicks on Boton registrar usuario" width="1366"/>
+                <img src="9db8e75dc936b06364ad15d7c439739694038d8c69cc01b7b29be2152ecd0330.png" title=" Fernando login (completed)" width="1366"/>
+                <img src="9db8e75dc936b06364ad15d7c439739694038d8c69cc01b7b29be2152ecd0330.png" title=" And enter the register module
+| email |
+| fgdsdgshs23@gmail.com | (completed)" width="1366"/>
+                <img src="d370acd6f35e57bc1db4ca5a2d9eeee9318c63b54bc4d91259da967bac9152bf.png" title=" When he enters his personal data
+| stfristname | stlastname | stemail | stpassword | stday | stmonth | styear | stfrisnamef | stlasnamef | stcompany | staddress | staddress2 | stcity | ststate | stpostal | stcountry | stadditional | strphone | strmyadrdres |
+| fernando | galvez | fgdsdgshs23@gmail.com | 12345789f | 11 | 5 | 1998 | fernado | moreno | choucair | calle 5 | #18-12 | villavivencio | 13 | 33166 | 21 | hola | 3125568489 | soy yo |" width="1366"/>
+                <img src="d370acd6f35e57bc1db4ca5a2d9eeee9318c63b54bc4d91259da967bac9152bf.png" title=" Fernando fill" width="1366"/>
+                <img src="d370acd6f35e57bc1db4ca5a2d9eeee9318c63b54bc4d91259da967bac9152bf.png" title=" fernando clicks on malewww" width="1366"/>
+                <img src="08fd207f2d3bb8d6e5b24de69fbc7df4480550bff8da632cb0d48186c85598c2.png" title=" fernando enters 'fernando' into nombre" width="1366"/>
+                <img src="352aab176c952fb9afef43cff35d3cd98fded3dd35a9d9f09eb021dc7a9eb337.png" title=" fernando enters 'galvez' into apellido" width="1366"/>
+                <img src="5908875b82e67562f7098cc35a1341abb701ba47ca4f37f45318ce93e6fbb528.png" title=" fernando enters '12345789f' into contrase&Atilde;&plusmn;a" width="1366"/>
+                <img src="2476d7fe00eba695b5be33d5f9b2bbb78ff89c995820b4fbb161cd7434514901.png" title=" fernando selects 11 in dia de nacimiento" width="1366"/>
+                <img src="c46daeb003946b82cc5bd61beba5ba363c230af6765febf22dfd559ed7d25eee.png" title=" fernando selects 5 in mes de nacimiento" width="1366"/>
+                <img src="4550456b5cc1eb95816019b027a057a285f95c8d943a641d679860684ae8d07a.png" title=" fernando selects 1998 in a&Atilde;&plusmn;o de nacimiento" width="1366"/>
+                <img src="49a343fbcf20ab0f11c62223e559770d1079aae5ee24f71228c82d23be8ccac4.png" title=" fernando enters 'moreno' into apellido de la empresa" width="1366"/>
+                <img src="83dd0381c7853d8f747fae6056aed2e1a4dfcea23e0f0d1b91b2ffffea1c65a0.png" title=" fernando enters 'fernado' into nombre de empresa" width="1366"/>
+                <img src="cfe047c91f8c989737e2120c293b3ebe72aec5005d36536e965aa9d183790e2a.png" title=" fernando enters 'choucair' into nombre compa&Atilde;&plusmn;ia" width="1366"/>
+                <img src="e3cceb0488b0311e134657c64730cf3af9e2f98724a90133f1cbf647c5fbd505.png" title=" fernando enters 'calle 5' into direccion" width="1366"/>
+                <img src="d34a12ed21982c110e87b4a8d6296977696dad6c0189964e1926911863b8d09f.png" title=" fernando enters 'villavivencio' into ciudad" width="1366"/>
+                <img src="d6311e47582c69b4cadaa4f110eeef85426b7c441aa2e251b088c64454a14d57.png" title=" fernando selects 13 in ESTADO" width="1366"/>
+                <img src="61b6751a5403e620b73f1166a9a4109c6c2d2d35c56b9a359561444917192f91.png" title=" fernando enters '33166' into codigo postal" width="1366"/>
+                <img src="61b6751a5403e620b73f1166a9a4109c6c2d2d35c56b9a359561444917192f91.png" title=" fernando selects 21 in pais" width="1366"/>
+                <img src="849b51ccb368911ac673bc5964fef5c508663aef410b90accf22cc388ff0dc33.png" title=" fernando enters 'hola' into INFORMACION ADICIONAL" width="1366"/>
+                <img src="2fcf52050394ab71c3b41ded0f9b89d9a2ac3210cf5d3d66917e9b0b8e6397cb.png" title=" fernando selects 13 in ESTADO" width="1366"/>
+                <img src="be7654253c7f6aef67475e4d56509a80f72f146b5ab56ee3ff55f6f5e7b500c6.png" title=" fernando enters '3125568489' into telefono1" width="1366"/>
+                <img src="a56caa3d02297236ed33e01564cc593cd745ebd37fe685d99d9c3a83f3ac80b2.png" title=" fernando enters 'soy yo' into un alias" width="1366"/>
+                <img src="4ffd416f05606ff430825fd6c4eb90a0c414475f3da5bb1adcd91a15d2d68904.png" title=" fernando clicks on boton generar rgistro" width="1366"/>
+                <img src="4ffd416f05606ff430825fd6c4eb90a0c414475f3da5bb1adcd91a15d2d68904.png" title=" Fernando fill (completed)" width="1366"/>
+                <img src="4ffd416f05606ff430825fd6c4eb90a0c414475f3da5bb1adcd91a15d2d68904.png" title=" When he enters his personal data
+| stfristname | stlastname | stemail | stpassword | stday | stmonth | styear | stfrisnamef | stlasnamef | stcompany | staddress | staddress2 | stcity | ststate | stpostal | stcountry | stadditional | strphone | strmyadrdres |
+| fernando | galvez | fgdsdgshs23@gmail.com | 12345789f | 11 | 5 | 1998 | fernado | moreno | choucair | calle 5 | #18-12 | villavivencio | 13 | 33166 | 21 | hola | 3125568489 | soy yo | (completed)" width="1366"/>
+                <img src="4ffd416f05606ff430825fd6c4eb90a0c414475f3da5bb1adcd91a15d2d68904.png" title=" Then user registration should be successful MY ACCOUNT" width="1366"/>
+                <img src="4ffd416f05606ff430825fd6c4eb90a0c414475f3da5bb1adcd91a15d2d68904.png" title=" Then answer" width="1366"/>
+                <img src="4ffd416f05606ff430825fd6c4eb90a0c414475f3da5bb1adcd91a15d2d68904.png" title=" Then user registration should be successful MY ACCOUNT (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
